@@ -75,7 +75,7 @@ case "$6" in
             password=$(create_password)
             echo "password=${password} "
         fi
-        if [ $7 ] && [ $8 ] && [ $9 ]; then
+        if [ $7 ] && [ $8 ] && [ $password ]; then
             create_user $7 $8 $password
         else
             echo ${HELP}

@@ -89,7 +89,7 @@ class TracRemote(object):
             password = re.match(r'.*password=(?P<password>\w+) .*', output)
         if not password:
             raise TracError(10, ['Password not created!'])
-        return password
+        return password.group('password')
 
     def get_trac_users(self):
         """
