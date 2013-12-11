@@ -30,3 +30,5 @@ Example usage
 	>>> # on remote directory '42-trac11-template' will be copied to '42-test-deletemedelete'
 	>>> t_r.add_trac_user('42-test-deletemedelete', 'deletemedelete')
     'ays5Quatda'
+
+
