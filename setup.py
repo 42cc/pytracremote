@@ -14,7 +14,7 @@ setup(
     url='https://github.com/42cc/pytracremote',
     packages=find_packages(),
     package_data={
-        'pytracremote': ['scripts/*.sh'],
+        '': ['pytracremote/scripts/*'],
     },
     include_package_data=True,
     zip_safe=False,
